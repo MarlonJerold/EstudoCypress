@@ -19,9 +19,15 @@ describe('Login e registro de usuarios', () => {
         
     })
 
-    it.only('Fazer cadastro de usuario', () => {
-        cy.contains('a', 'Register').click();
-        cy.login('marlon jerold', 'jeroldmarlon12@gmail.com', '12345678')
-    })
+    const user = require('../../fixtures/user.json')
+
+    user.forEach(usuario => { 
+
+        it.only('Fazer cadastro de usuario' + usuario.userName, () => {
+            cy.contains('a', 'Register').click();
+            cy.login(usuario.userName, usuario.email, usuario.password)
+        })
+    });
+
 
 } )

@@ -1,0 +1,23 @@
+[
+    {
+      "userName":"Pessoa 1",
+      "email":"pessoa1@gmail.com",
+      "password":"password 1"
+    },{
+       "userName":"Pessoa 2",
+       "email":"pessoa5@gmail.com",
+       "password":"password 2"
+    },{
+       "userName":"Pessoa 3",
+       "email":"pessoa5@gmail.com",
+       "password":"password 3"
+    },{
+       "userName":"Pessoa 4",
+       "email":"pessoa5@gmail.com",
+       "password":"password 4"
+    },{
+       "userName":"Pessoa 5",
+       "email":"pessoa5@gmail.com",
+       "password":"password 5"
+      }
+    ]
