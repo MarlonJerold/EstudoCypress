@@ -16,13 +16,13 @@ Visando a melhoria da velocidade, optei por utilizar
 npx cypress run --reporter mochawesome
 ```
 
-fazendo com que seja atualizado o mochawesome, com isso, não será necessário usar a tela do cypress, fazendo com que o processo de desenvolvimento dos testes ocorra de forma mais rápida e eficiente.
+Fazendo com que seja atualizado pelo mochawesome, não será necessário usar a tela do cypress, fazendo com que o processo de desenvolvimento dos testes ocorra de forma mais rápida e eficiente.
 
 Imagem de como será visualizado os testes.
 
 ![img01](https://user-images.githubusercontent.com/63025001/224199428-dfc75aa1-e8a4-41f6-bd77-d20314f826a7.png)
 
-utilizando o código
+utilizando o seguinte comando
 
 ```
 npx cypress run
